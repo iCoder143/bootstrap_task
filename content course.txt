@@ -1,0 +1,25 @@
+10/12/22			
+Assignment(use background imge in slider and move different taxt on img)
+navbar toggler
+
+carousel slider(10:00 am)
+class
+
+>data-bs-ride
+>data-bs-taarget
+>data-bs-interval
+>add slider buttons previous and next
+>indicators buttons
+>carousel-caption
+>task 
+
+date:10/12/22
+forms in bootstrap
+
+Start JavaScript
+1:console.log
+2:document.write
+3:variable declar(let,var,const,name)
+4: 
+
+ 

@@ -1,0 +1,146 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+.heading hr{
+    width: 100px;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heading h1{
+  font-family: "Mulish";
+}
+.heading a{
+  font-family: "Mulish";
+  text-decoration: none;
+  color: black;
+}
+nav{
+    border-bottom: 4px solid gold;
+}
+.nav-item i{    
+    padding-right: 10px;
+    color: gray;
+    
+}
+.nav-item:hover{
+    background-color: gold;
+}
+.nav-item a{
+    color: #fff !important;
+    font-family: 'Mulish';
+}
+.btn-outline-warning{
+    color: #fff !important;
+    border:1px solid #fff !important;
+}
+.btn-outline-warning:hover{
+    background-color: gold !important;
+    outline: gold !important;
+}
+.bg-dark{
+    background-color: #212529 !important;
+    padding: 0px;
+}
+.nav-link{
+    padding: 15px !important;
+}
+.heading h1{
+    padding: 0px 30px;
+    font-family: "Mulish";
+}
+.slider img{
+    height: 80vh;
+
+}
+.borderrr{
+    border-bottom: 5px solid gold;
+}
+.borderr{
+    border-bottom: 5px solid gold;
+    padding: 40px 0px;
+}
+.service_1{
+    text-align: center;
+    font-family: "Mulish";
+}
+.service_1 i{
+    color: gold;
+    font-size: 40px;
+
+}
+.key_feature ul{
+    list-style: none;
+    font-family: "Mulish";
+}
+.key_feature ul li::before{
+    font-family: "Mulish";
+  content: "\2713";
+  font-weight: bold;
+  color: gold;
+  width: 1rem;
+  margin-right: 1rem;
+}
+.images_web{
+    margin-bottom: 30px;
+}
+.footer_one span{
+    color: gold;
+}
+.footer_two span{
+    color: gold;
+}
+.footer_two i{
+    padding-right: 10px;
+}
+.footer_three i{
+    padding-right: 10px;
+    font-size: 20px;
+}
+.footer{
+    background-color: rgb(43, 42, 42);
+    padding: 50px 0px;
+    color: gray;
+    font-family: "Mulish";
+}
+.sample a{
+    padding: 0px 20px;
+    text-decoration: none;
+    color: gray;
+    border-right: 2px solid gray;
+}
+.copyr a{
+    text-decoration: none;
+    color: gray;
+}
+.top_one{
+    display: flex;
+    justify-content: space-between;
+    padding: 7px 30px 0px 30px !important;
+    background-color: rgb(230, 230, 230);
+    color:gray;
+    margin-bottom: 0.5rem;
+}
+form{
+    padding: 20px;
+}
+.hvr-shutter-out-horizontal {
+  
+    background-color: black!important;
+    color: black !important;
+    
+  }
+  .hvr-shutter-out-horizontal:before {
+   
+    background-color: gold !important;
+    
+  }
+  
+  .hvr-shutter-out-horizontal:hover , hvr-shutter-out-horizontal:active  {
+   
+    color: black !important;
+    
+  }
+  

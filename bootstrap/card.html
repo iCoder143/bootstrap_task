@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .fa {
+            color: gold;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar bg-dark navbar-expand-sm  mt-2">
+        <div class="containor">
+            <a href="#" class="navbar-brand">my store</a>
+            <button class="toggler">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav">
+                    <li class="nav-items"><a class="nav-links" href="#">Home</a></li>
+                    <li class="nav-items"><a class="nav-links" href="#">About</a></li>
+                    <li class="nav-items"><a class="nav-links" href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <h1 class="text-center mt-1 bg-warning">Featured Products</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 ">
+                <div class="card">
+                    <img src="https://media.istockphoto.com/id/994527854/photo/3d-rendering-set-of-golden-headphones-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=axmqSQ3NezKHH1kIVfJ2bqP8Wdg4w0kfxWFqUmv_sdc="
+                        alt="Head Phone">
+                    <div class="card-body">
+                        <h5 class="card-title">Card Title</h5>
+                        <p class="card-text text-l-start">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Facere neque nostrum odio totam quo numquam aperiam?</p>
+                        <div>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half"></i>
+                        </div>
+                        <div class="d-grid gap-2">
+                            <a href="#" class="btn btn-warning btn-sm mt-1">More Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 ">
+                <div class="card">
+                    <img src="data:image/jpeg;base64,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"
+                        alt="Head Phone">
+                    <div class="card-body">
+                        <h5 class="card-title">Card Title</h5>
+                        <p class="card-text text-l-start">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Facere neque nostrum odio totam quo numquam aperiam?</p>
+                        <div>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half"></i>
+                        </div>
+                        <div class="d-grid gap-2">
+                            <a href="#" class="btn btn-warning btn-sm mt-1">More Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 ">
+                <div class="card">
+                    <img src="https://media.istockphoto.com/id/994527854/photo/3d-rendering-set-of-golden-headphones-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=axmqSQ3NezKHH1kIVfJ2bqP8Wdg4w0kfxWFqUmv_sdc="
+                        alt="Head Phone">
+                    <div class="card-body">
+                        <h5 class="card-title">Card Title</h5>
+                        <p class="card-text text-l-start">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Facere neque nostrum odio totam quo numquam aperiam?</p>
+                        <div>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half"></i>
+                        </div>
+                        <div class="d-grid gap-2">
+                            <a href="#" class="btn btn-warning btn-sm mt-1">More Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 ">
+                <div class="card">
+                    <img src="https://media.istockphoto.com/id/994527854/photo/3d-rendering-set-of-golden-headphones-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=axmqSQ3NezKHH1kIVfJ2bqP8Wdg4w0kfxWFqUmv_sdc="
+                        alt="Head Phone">
+                    <div class="card-body">
+                        <h5 class="card-title">Card Title</h5>
+                        <p class="card-text text-l-start">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Facere neque nostrum odio totam quo numquam aperiam?</p>
+                        <div>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half"></i>
+                        </div>
+                        <div class="d-grid gap-2">
+                            <a href="#" class="btn btn-warning btn-sm mt-1">More Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
