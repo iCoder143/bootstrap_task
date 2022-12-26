@@ -283,65 +283,74 @@
             </div>
         </div>
     </div>
+    <!-- Modal  -->
 
 
-            <!-- tabs & Pills -->
-            <!-- <a class="nav-link" data-bs-toggle="tab" href="#">Log In</a> -->
+    <div class="col">
+        <button type="button" class="btn btn-warning" data-bs-target="#mymodal" data-bs-toggle="modal">
+            Open Modail
+        </button>
 
-            <!-- <div class="nav navbar">
+        <div class="modal" id="mymodal">
+            <div class="modal-content">
+                <!-- Header  -->
+                <div class="modal-header">
+                    <h4 class="modal-title">
+                        <ul class="nav nav-tabs">
+                            <li class="nav-item">
+                                <button class="nav-link" data-bs-toggle="tab" data-bs-target="#login" type="button">
+                                    LogIn
+                                </button>
+                            </li>
+                            <li class="nav-item">
+                                <button class="nav-link" data-bs-toggle="tab" data-bs-target="#" type="button">
+                                    SignUp
+                                </button>
+                            </li>
+                        </ul>
+                    </h4>
+                    <button class="btn-close" data-bs-dismiss="modal" type="button">
 
-                <ul class="nav nav-tab">
-                    
-                    <li class="nav-item">
-                        <button class="btn" data-bs-toggle="tab" data-bs-target="#">Log In</button>
-                    </li>
-                    <li class="nav-item">
-                        <button class="btn" data-bs-toggle="tab" data-bs-target="#">Sign Up</button>
-                    </li>
+                    </button>
+                </div>
 
+                <!-- body of modal  -->
+                <div class="modal-body">
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pan fade show active" id="login">
+                            <!-- login form  -->
+                            <div class="form-floating mb-3 mt-3">
+                                <input type="email" id="email" class="form-control" placeholder="Email"/>
+                                <label for="email">
+                                    Email
+                                </label>
+                            </div>
+                            <div class="form-floating mb-3 mt-3">
+                                <input type="password" id="password" class="form-control" placeholder="Password"/>
+                                <label for="password">
+                                    Password
+                                </label>
+                            </div>
+                        </div>
 
-                </ul>
+                    </div>
+                </div>
+
 
             </div>
-            
+        </div>
 
 
-            <div class="content-tab">
-                <div class="login_tab" id="login">
-                    <h1>Lorem ipsum dolor sit amet.</h1>
+    </div>
 
-                </div>
-                <div class="signup_tab" id="signup">
-                    <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit odio at, tenetur libero sunt asperiores eius, blanditiis autem deserunt neque, adipisci maiores. Ut dignissimos, at sit facere tempora asperiores possimus. </h1>
 
-                </div>
-
-            </div> -->
-
-            <div class="modal" tabindex="-1">
-                <div class="modal-dialog">
-                  <div class="modal-content">
-                    <!-- header -->
-                    <div class="modal-header">
-                      <h5 class="modal-title">Modal title</h5>
-                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                      <p>Modal body text goes here.</p>
-                    </div>
-                    <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                      <button type="button" class="btn btn-primary">Save changes</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
+   
 
     <!--section-modal-->
 
 
 
-    <!-- <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+    <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
         tabindex="-1">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
@@ -447,7 +456,7 @@
 
             </div>
         </div>
-    </div> -->
+    </div>
 
 
     <script src="/bootstrap/bootstrap-5.0.2-dist/js/bootstrap.bundle.js"></script>

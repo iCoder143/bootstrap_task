@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+</head>
+
+<body>
+
+    <div class="dropdown">
+        <button id="dmenu" class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Colors
+            <span class="caret"></span></button>
+        <ul id="ulmenu" class="dropdown-menu">
+
+
+        </ul>
+    </div>
+
+
+    <script>
+
+        const ul = document.getElementById("ulmenu")
+
+        const colors = ['green', 'black', 'blue','red','yellow'];
+
+        colors.map((item) => {
+            let li = document.createElement("li")
+            li.style.fontSize = "x-large";
+            li.innerHTML = item
+            ul.appendChild(li)
+            return item
+            
+        }
+        )
+
+// document.write('<ul>')
+//   let result= colors.map(function(item) {
+
+//     document.write(`<li> ${item} </li>`)
+// return item;
+//   })
+//   document.write("</ul>")
+    </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>

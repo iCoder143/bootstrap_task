@@ -1,4 +1,4 @@
-10/12/22			
+Date:10/12/22			
 Assignment(use background imge in slider and move different taxt on img)
 navbar toggler
 
@@ -20,6 +20,49 @@ Start JavaScript
 1:console.log
 2:document.write
 3:variable declar(let,var,const,name)
-4: 
 
+Date:16/12/22
+>show them a task
+>animate.css
+>hover.css
+>tabs & Pills(bootstrap)And also like Accordion
+
+
+Git Hub
+>logIn your account 
+after that you ha to config on vs terminal use commands
+
+********************************
+( git config -- user.name
+
+LENOVO@DESKTOP-76OGON4 MINGW64 /e/MERN Stack (master)
+$ git config -- global user.name "iCoder143"
+error: key does not contain a section: global
+
+
+LENOVO@DESKTOP-76OGON4 MINGW64 /e/MERN Stack (master)
+$ git commit -m "my first task of git")
+**********************************
+
+
+>Create Repositry on Git_Hub and download & install git bash
+>on bash terminal us command (Git into)
+>after that paste repostary link and enter
+
+
+
+Date:17/12/22
+>javascrip intro to variables from W3School(before break)
+
+
+
+Date:23/12/22
+>today we learn about java functions from w3school
+>also we learn Array Methods
+ 
+
+Date:24/12/22
+>today we study about Regular Expression
+>study about validation with if&else 
+>at the end of day study about MAP
  

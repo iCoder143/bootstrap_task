@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* #demo{
+            display: none;
+        } */
+        /* #butn{                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+            300px
+        } */
+    </style>
+
+</head>
+<body>
+   
+    <button id="butn" onclick="changeIndex()">show me</button>
+    <p id="demo" style="display: none;">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti temporibus laboriosam laudantium blanditiis iusto sapiente, libero voluptatibus rem hic iste tempore doloremque nulla dicta voluptatum reprehenderit officiis perferendis esse ad unde, ipsum consectetur consequuntur! Quas recusandae dolores optio necessitatibus perspiciatis. Excepturi, aspernatur exercitationem blanditiis corrupti alias mollitia sequi veniam tempora?
+    </p>
+
+    <script>
+
+        function changeIndex() {
+            debugger
+            // document.getElementById("demo").innerHTML="my first program"
+            // console.log("hello")
+            var y=document.getElementById("butn")
+
+           var x =document.getElementById("demo");
+            if(x.style.display=="none"){
+                x.style.display="block"
+                y.innerText="Hide Me"
+                
+                
+                
+                
+            }
+            else{
+                
+                x.style.display="none"
+                y.innerText="Show Me"
+
+
+            }
+
+        }
+       
+       
+      
+    </script>
+    
+</body>
+</html>
